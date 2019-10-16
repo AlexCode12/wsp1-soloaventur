@@ -1,5 +1,5 @@
 body {
-    background-color: bisque;
+    background-color: #031D44;
     font-size: 16px;
 }
 
@@ -9,7 +9,17 @@ main {
 }
 
 p {
-    font-size: 1.4em;
+    font-size: 1.7em;
+    color: white;
+    text-align: center;
+}
+a {
+    color: white;
+    font-size: 1.3em;
+}
+
+a:hover {
+    color: white;
 }
 
 ul {
@@ -17,3 +27,17 @@ ul {
     display: flex;
     justify-content: space-evenly;
 }
+button {
+    align-content: center;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+  
