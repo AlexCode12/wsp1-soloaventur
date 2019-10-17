@@ -10,8 +10,8 @@
 </head>
 <body>
     <main>
+    <?php include 'navbar.php'?>
     <img src="img/Logo.svg" class="center" width="300" height="200" alt="Logo">
-        <?php include 'navbar.php'?>
         <p>
             <?= $story['body'] ?>
         </p>

@@ -27,7 +27,7 @@ $sth->execute();
 
 $links = $sth->fetchAll(PDO::FETCH_ASSOC);
 
-$pageTitle = "Soloäventyr - $id";
+$pageTitle = "Hans och Greta: Alex Edition - Sida $id";
 
 include 'views/index_layout.php';
 
