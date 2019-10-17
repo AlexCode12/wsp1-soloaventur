@@ -9,13 +9,11 @@ main {
 }
 
 p {
-    font-size: 1.7em;
     color: white;
     text-align: center;
 }
 a {
     color: white;
-    font-size: 1.3em;
 }
 
 a:hover {
@@ -40,4 +38,38 @@ html {
     margin-right: auto;
     width: 50%;
   }
-  
+ 
+@media (min-width: 576px) { 
+    p {
+        font-size: 1em;
+    }
+    a {
+        font-size: 0,5em;
+    }
+}
+@media (min-width: 768px) { 
+    p {
+        font-size: 1.2em;
+    }
+    a {
+        font-size: 0,75em;
+    }
+ }
+
+@media (min-width: 992px) { 
+    p {
+    font-size: 1.4em;
+    } 
+    a {
+        font-size: 1,05em;
+    }
+}
+
+@media (min-width: 1200px) { 
+    p {
+    font-size: 1.7em;
+    } 
+    a {
+        font-size: 1,3em;
+    }
+}
