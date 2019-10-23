@@ -11,10 +11,11 @@ main {
 p {
     color: white;
     text-align: center;
-    font-family: 'Dancing Script' cursive;
+    font-family: 'Maitree', serif;
 }
 a {
     color: white;
+    font-family: 'Lora', serif;
 }
 
 a:hover {
